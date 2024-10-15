@@ -361,3 +361,33 @@
 //console.log("El teu sou mensual arrel del sou/hora i les hores treballades totals és de:", preu_hora*hores_treballades, "euros")
 
 
+//12.5.- Fes un programa en JavaScript que, donades dues variables x i y, intercanviï els seus valores de manera que x acabi 
+//tenint el valor de y i y acabi tenint el valor de x. 
+//Així, si inicialment tenim: let x = "Hola", y = 3; Quan el programa acabi, x haurà de guardar un 3 i y un “Hola”.  
+
+//let x=prompt("Escriu un valor numéric o una cadena de caràcters per asignar a x: ");
+//let y=prompt("Escriu un valor numéric o una cadena de caràcters per asignar a y: ");
+//console.log(x,y);
+//let temp=x
+//x=y
+//y=temp
+//console.log("Si 'x' i 'y' tinguessin valors invertits valdrien:","x==", x, "y==", y);
+
+
+//12.6.- Fes un programa que escrigui a la consola el cub d’un número llegit per teclat (amb el prompt())  
+
+//let número=prompt("Escriu un número: ");
+//console.log("El cub del número que has introduït és:", número**3)
+
+
+//12.7.- Escriu un programa d’una sola línia que faci que aparegui a la pantalla un alert que digui “Hello World”.  
+//alert("Hellow World")
+
+
+//12.8.- Escriu un programa de dues línies que demani el nom de l’usuari amb un prompt() i 
+//escrigui un text a la consola que digui “Hola nomUsuari” 
+//let nomUsuari=prompt("Escriu el teu nom: ");
+//console.log("Hola", nomUsuari)
+
+
+
