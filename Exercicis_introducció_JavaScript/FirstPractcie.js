@@ -388,6 +388,3 @@
 //escrigui un text a la consola que digui “Hola nomUsuari” 
 //let nomUsuari=prompt("Escriu el teu nom: ");
 //console.log("Hola", nomUsuari)
-
-
-
