@@ -402,8 +402,8 @@
 
 //let preubase
 //let preutipus
-//conus_o_terrina=prompt("Vols un conus o una terrina? ");
-//tipus=prompt("Escriu el tipus de sabor: Vainilla, Xocolata, Turró, Menta, Oreo, Crema, Gerds o Ametlles? ")
+//let conus_o_terrina=prompt("Vols un conus o una terrina? ");
+//let tipus=prompt("Escriu el tipus de sabor: Vainilla, Xocolata, Turró, Menta, Oreo, Crema, Gerds o Ametlles? ")
 //switch(conus_o_terrina){
 //    case('conus'):
 //        preubase=3.45;
@@ -602,16 +602,84 @@
 
 //17.1.- Escriu, fent servir la instrucció while, un programa que escrigui a la consola 10 cops el text “Estem fent bucles”.  
 
-let iteracions=1
-while(iteracions<=10){
-    console.log("Estem fent bucles");
-    iteracions++
-}
+//let iteracions=1
+//while(iteracions<=10){
+//    console.log("Estem fent bucles");
+//    iteracions++;
+//}
 
 
 //17.2.- Escriu, fent servir la instrucció while, un programa que escrigui a la consola tots els nombres del 5 al 20. 
 
+//let nombres=5;
+//while(nombres<=20){
+//    console.log(nombres);
+//    nombres++
+//}
 
 
 //17.3.- Escriu un programa, fent servir la instrucció while, que, donat un número N, escrigui a la consola tots 
 //els números de N a 1 (per tant, en ordre descendent). Observa el que passa si N < 1 
+//let N=prompt("Escriu un nombre: ");
+//N=Number(N);
+//if(N>=1){   
+//while (N>=1) {
+//    console.log(N);
+//    N--
+//}
+//}else{
+//    console.log("Error. Has introduït un nombre menor que 1");
+//}
+
+
+//17.4.- Escriu un programa que escrigui la seqüència de Fibonnacci des d’u fins a un número N donat. 
+//La seqüencià de Fibonnacci consisteix en la suma dels dos valors anteriors tenint en compte que els dos primers són 1 i 1. 
+//Així, els 7 primers números de Fibonnacci són: 1 1 2 3 5 8 13 Els dos primers són 1 i 1 El tercer és 1 + 1 → 2 El quart és 1 + 2 → 3 
+//El cinquè és 2 + 3 → 5 El sisè és 3 + 5 → 8 El setè és 5 + 8 → 13 
+
+//let i=1;
+//let resultat=1;
+//let valorInicial=1;
+//let valorAnterior=0;
+//console.log(resultat);
+////Això esriurà el primer 1.
+//
+//while(i<8){
+//
+//    resultat=valorInicial+valorAnterior;
+//    console.log(resultat);
+//
+//    valorAnterior=valorInicial;
+//    valorInicial=resultat;
+//
+//    i++;
+//}
+
+
+
+
+//17.5.- Escriu un programa que, donats dos números N i M, escrigui en la consola la llista de 
+//multiplicacions N*1, N*2, N*3, N*4,...,N*M Per evitar problemes per la mida del resultat (en cas que N o M siguin molt grans) 
+//l’escriptura de multiplicacions s’ha d’aturar si el resultat és més gran que 
+//999999 (faig servir l’espai com a separadors de milers per tal que quedi més clar el nombre). 
+//Per exemple, si els nombres introduits són 200000 i 5000 els resultat per consola hauria 
+//de ser: 200000, 400000, 600000, 800000, 1000000  I ja no s’escriuria res més doncs 1000000 és més gran que 999999
+
+//let contador=1;
+//let N=prompt("Escriu un nombre: ");
+//N=Number(N);
+//let M=prompt("Escriu un nombre: ");
+//M=Number(M);
+//while(contador<=M){
+//    if (contador*N<1000000){
+//        let resultat=contador*N
+//        console.log("La multiplicació de",N,"*",contador,"és:", resultat);
+//        contador++
+//
+//
+//    }else{
+//        console.log("El programa no permet càlculs de números més grans que 999999");
+//        break;
+//    }
+//
+//}
