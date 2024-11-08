@@ -39,11 +39,11 @@
 //● Guardi a la posició 6 de la taula la suma dels elements
 //● Escrigui a la consola el contingut de la taula. Què passa a la posició 5?
 
-let taula=[23,45,98,73];
-console.log("La suma dels elements situats a les posicions 0 i 2 de la taula és:",taula[0]+taula[2]);
-taula[6]=taula[0]+taula[2];
-console.log(taula[6]);
-console.log(taula); //A la posició 4 i 5 la consola diu que els espais no estan definits. 
+//let taula=[23,45,98,73];
+//console.log("La suma dels elements situats a les posicions 0 i 2 de la taula és:",taula[0]+taula[2]);
+//taula[6]=taula[0]+taula[2];
+//console.log(taula[6]);
+//console.log(taula); //A la posició 4 i 5 la consola diu que els espais no estan definits. 
                     //Aixó és degut a que aquestes posicions no tenen valors assignats.
 
 
@@ -51,10 +51,26 @@ console.log(taula); //A la posició 4 i 5 la consola diu que els espais no estan
 //21.4.- Fes un programa que, donat un número (que demanarem per pantalla fent servir prompt()) emmagatzemi a 
 //una taula el doble i el triple d’aquest número. Un cop fet, escriu la taula a la consola.
 
+//let taula=[];
+//let numero=prompt("Escriu un número: ");
+//numero=Number(numero);
+//taula[0]=numero*2; taula[1]=numero*3;
+//console.log(taula);
+
 
 
 //21.5.- Fes un programa que, donat dos números, que demanarem per pantalla i emmagatzemarem a dues variables, guardi a 
 //una taula els resultats de la suma, la resta, la multiplicació i la divisió dels dos valors introduïts.
+
+//let taula=[];
+//let numero1=prompt("Escriu un número: "); let numero2=prompt("Escriu un número: ");
+//numero1=Number(numero1); numero2=Number(numero2);
+//taula[0]=numero1+numero2;
+//taula[1]=numero1-numero2;
+//taula[2]=numero1*numero2;
+//taula[3]=numero1/numero2;
+//console.log(taula);
+
 
 
 //21.6.- Donada aquesta taula:
@@ -62,27 +78,65 @@ console.log(taula); //A la posició 4 i 5 la consola diu que els espais no estan
 //Fes un programa que escrigui a la consola els valors situats a la primera i la darrera posició de la taula.
 //*****
 //Donada la definició d’aquesta taula:
+
 //let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+//console.log(taula[0], taula[taula.length-1]);
 
 
 
 //21.7.- Fes un programa que escrigui a la consola tots els valors emmagatzemats a la taula, un a un.
 
+//let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+//for(let i=0;i<taula.length;i++){
+//    console.log(taula[i]);
+//}
 
 
 //21.8.- Fes un programa que escrigui a la consola la suma tots els valors emmagatzemats a la taula.
+
+//let suma=0;
+//let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+//for(let i=0;i<taula.length;i++){
+//    suma=suma+taula[i];
+//}console.log("La suma de tots els números de la taula és:",suma);
+
 
 
 //21.9.- Fes un programa que crei una segona taula i emmagatzemi a ella tots els valors de la taula, tot 
 //sumant-los 25 (així les tres primeres posicions de la nova taula emmagatzemarien [48, 70, 88] Un cop fet haurà d’escriure la 
 //nova taula a la consola.
 
+//let taula2=[];
+//let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+//for(let i=0;i<taula.length;i++){
+//    taula2[i]=taula[i]+25
+//}console.log(taula2);
+
+
 
 //21.10.- Fes un programa que calculi la mitjana dels valors emmagatzemats a la taula i l’escrigui a la 
 //consola (la mitjana es calcula sumant tots els valors i dividint pel nombre de valors).
 
+//let suma=0;
+//let mitjana=0;
+//let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+//for(let i=0;i<taula.length;i++){
+//    suma=suma+taula[i];
+//}console.log(mitjana=suma/taula.length);
+
+
 
 //21.11.- Fes un programa que calculi i escrigui a la consola els valors més gran i més petit de la taula.
+
+
+let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+let min=taula[0];
+let max=taula[0];
+for(let i=0;i<taula.length;i++){
+    if(taula[i]<taula[i+1]){
+        
+    }
+}console.log(max, min);
 
 
 //21.12.- Fes un programa que crei una nova taula on s’emmagatzemin només els valors parells de la taula i que escrigui 
