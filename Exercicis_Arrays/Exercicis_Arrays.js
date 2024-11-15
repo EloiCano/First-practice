@@ -129,14 +129,14 @@
 //21.11.- Fes un programa que calculi i escrigui a la consola els valors més gran i més petit de la taula.
 
 
-let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
-let min=taula[0];
-let max=taula[0];
-for(let i=0;i<taula.length;i++){
-    if(taula[i]<taula[i+1]){
-        
-    }
-}console.log(max, min);
+//let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+//let min=taula[0];
+//let max=taula[0];
+//for(let i=0;i<taula.length;i++){
+//    if(taula[i]<taula[i+1]){
+//        
+//    }
+//}console.log(max, min);
 
 
 //21.12.- Fes un programa que crei una nova taula on s’emmagatzemin només els valors parells de la taula i que escrigui 
