@@ -1,0 +1,35 @@
+<!--Exercici 6.1:-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+</head>
+<body>
+    <form action="" name="formu" >
+        <label for="firstname">Nom:</label><br>
+        <input type="text" id="firstname" name="firstname" value="Escriu el teu nom" onclick="netejarCamp">
+        
+        <label for="color">black:</label>
+        <input type="text" id="color" name="color">
+        <button type="button" onclick="canviarColor()">Canvia el color</button>
+
+        <button type="button" onclick="netejarCamp()">clear</button>
+        <br>
+        <label for="coment">Afegir comentaris?</label><br>
+        <input type="radio" name="coment" value="Sí" id="preg_si" onclick="comentaSiNo()">Sí<br>
+        <input type="radio" name="coment" value="No" id="preg_no">No<br>
+        <br>
+        <label for="comentari">Comentaris:</label><br>
+        <textarea name="Comentaris:" style="display: none;" id="Coment" placeholder="Escriu un comentari"></textarea><br>
+        <br>
+        <input type="submit" value="submit" id="Enviar">
+        <a href="http://"><button type="submit">Botó enviar</button></a> 
+    </form> 
+    <script src="Formularis.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
