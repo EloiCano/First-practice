@@ -115,7 +115,10 @@
 
 
 //Exercici 3.5
-//Hem organitzat un concurs a Twitter que consisteix en fer relats curs (màxim 280 caràcters) amb el màxim número de paraules de 5 caràcters. Per poder donar el premi, el que volem fer és classificar tots  els tuits segons el nombre de paraules de 5 caràcters que tenen i, per tant, necessitem una funció que, donada una frase, ens retorni el número de paraules de 5 caràcters que té.
+//Hem organitzat un concurs a Twitter que consisteix en fer relats curs (màxim 280 caràcters) amb el màxim número de paraules de 
+//5 caràcters. Per poder donar el premi, el que volem fer és classificar tots  els tuits segons el nombre de paraules de 
+//5 caràcters que tenen i, per tant, necessitem una funció que, donada una frase, ens retorni el número de paraules de 5 
+//caràcters que té.
 
 //Per fer aquesta funció haurem de tenir en compte que: 
 
@@ -127,9 +130,14 @@
 
 
 //Exercici 3.6
-//A partir de l’experiència del concurs anterior hem decidir fer un concurs semblant cada setmana. Però cada setmana volem comptar paraules amb diferents números de lletres. Així aquesta setmana seran paraules de 7 lletres, la setmana vinent de 4 i l’altre de 3. Què cal modificar a la funció per a que puguem fer servir la mateixa funció totes les setmanes? 
+//A partir de l’experiència del concurs anterior hem decidir fer un concurs semblant cada setmana. 
+//Però cada setmana volem comptar paraules amb diferents números de lletres. Així aquesta setmana seran paraules de 7 lletres, 
+//la setmana vinent de 4 i l’altre de 3. Què cal modificar a la funció per a que puguem 
+//fer servir la mateixa funció totes les setmanes? 
 
 
 //Exercici 3.7 
-//Un conegut que ha vist els nostres concursos ens ha preguntat com ho fem per comptar les paraules d’un determinat número de lletres. Un cop l’hem explicat ens ha demanat si li podíem fer una funció que, donada una frase, ens retorni a una taula quantes paraules hi ha amb 1, 2, 3, 4, 5, 6 o 7 lletres.
+//Un conegut que ha vist els nostres concursos ens ha preguntat com ho fem per comptar les paraules d’un determinat 
+//número de lletres. Un cop l’hem explicat ens ha demanat si li podíem fer una funció que, donada una frase, 
+//ens retorni a una taula quantes paraules hi ha amb 1, 2, 3, 4, 5, 6 o 7 lletres.
 
