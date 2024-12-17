@@ -1,0 +1,133 @@
+/* Estilo global para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #4a90e2;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+/* Estilo para las etiquetas del formulario */
+label {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"], input[type="password"], input[type="email"], select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Estilo cuando el campo de entrada está enfocado */
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, select:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 48%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+button:hover {
+    background-color: #357ab7;
+}
+
+button[type="reset"]:hover {
+    background-color: #e53935;
+}
+
+/* Estilo para los campos de checkbox */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estilo para los mensajes de error */
+span#errorMessage {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-top: -10px;
+}
+
+/* Estilo para los mensajes de éxito */
+#successMessage {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+/* Estilo para los campos cuando la validación es correcta o incorrecta */
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+/* Estilo para que el formulario no sea muy grande en pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    form {
+        padding: 20px;
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+        margin-right: 0;
+    }
+}
