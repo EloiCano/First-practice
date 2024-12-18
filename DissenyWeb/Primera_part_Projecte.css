@@ -1,4 +1,4 @@
-/* Estilo global para el cuerpo de la página */
+/* Estil global per la pàgina */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
 }
 
-/* Estilo para el título */
+/* Estil pel títol */
 h1 {
     text-align: center;
     font-size: 2.5em;
@@ -20,7 +20,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Estilo para el formulario */
+/* Estil per al formulari */
 form {
     background-color: #ffffff;
     padding: 30px;
@@ -31,16 +31,15 @@ form {
     margin-bottom: 30px;
 }
 
-/* Estilo para las etiquetas del formulario */
+/* Estil per les etiquetes del formulari */
 label {
     font-size: 1em;
     font-weight: bold;
     color: #333;
-    display: block;
     margin: 10px 0 5px;
 }
 
-/* Estilo para los campos de entrada */
+/* Estil per als camps d'entrada */
 input[type="text"], input[type="password"], input[type="email"], select {
     width: 100%;
     padding: 12px;
@@ -50,13 +49,13 @@ input[type="text"], input[type="password"], input[type="email"], select {
     font-size: 1em;
 }
 
-/* Estilo cuando el campo de entrada está enfocado */
+/* Estil quan el camp d'entrada està enfocat */
 input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, select:focus {
     border-color: #4a90e2;
     outline: none;
 }
 
-/* Estilo para los botones */
+/* Estil per als botons */
 button {
     background-color: #4a90e2;
     color: #fff;
@@ -83,12 +82,12 @@ button[type="reset"]:hover {
     background-color: #e53935;
 }
 
-/* Estilo para los campos de checkbox */
+/* Estil per als camps de checkbox */
 input[type="checkbox"] {
     margin-right: 10px;
 }
 
-/* Estilo para los mensajes de error */
+/* Estil pels missatges d'error */
 span#errorMessage {
     color: red;
     font-size: 0.9em;
@@ -96,7 +95,7 @@ span#errorMessage {
     margin-top: -10px;
 }
 
-/* Estilo para los mensajes de éxito */
+/* Estil pels missatges que estiguin correctament escrits i enviats */
 #successMessage {
     background-color: #d4edda;
     color: #155724;
@@ -106,7 +105,7 @@ span#errorMessage {
     display: none;
 }
 
-/* Estilo para los campos cuando la validación es correcta o incorrecta */
+/* Estil per als camps quan les validacions són correctes o incorrectes */
 input:invalid {
     border-color: red;
 }
@@ -115,7 +114,7 @@ input:valid {
     border-color: green;
 }
 
-/* Estilo para que el formulario no sea muy grande en pantallas pequeñas */
+/* Estil perquè el formulari no sigui molt petit en pantalles petites */
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 2em;
